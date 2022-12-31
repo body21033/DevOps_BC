@@ -1,0 +1,16 @@
+[server1]
+linux1 ansible_host=172.31.16.237     owner=Bohdan1
+
+
+[server2]
+linux2 ansible_host=172.31.30.187    owner=Bohdan2
+
+
+[floor3]
+linux3 ansible_host=172.31.27.165   owner=Bohdan3
+
+
+
+[iaas:children]
+server1
+server2
