@@ -1,0 +1,13 @@
+---
+# tasks file for fetch_linux_distro_name
+
+  - name: Print Linux distro name
+    debug:
+        msg:
+         - "{{ansible_distribution}} {{ansible_distribution_version}}"
+    register: distro_info
+
+  - name: Print hostnames together with a distro name
+    debug:
+        msg:
+        - "{{ansible_hostname}}: {{distro_info.msg}}"
