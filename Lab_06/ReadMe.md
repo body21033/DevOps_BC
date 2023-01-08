@@ -3,16 +3,16 @@
 
 ## Requirements:
  - Create two terraform modules for provisioning one AWS and one Azure instance;
- - Use variables.
+ - Use variables;
  - Provision one SSH public key for created instances;
  - Make your instances available to everyone on the web;
  - Add public IP of instances to Output Values;  - Install Grafana to your instances;
- - Create a beautiful repository structure and clear readme file with information about your project like for your grandma.
- - Add terraform apply output to the last section of your readme like in example:
+ - Create a beautiful repository structure and clear readme file with information about your project like for your grandma;
+ - Add terraform apply output to the last section of your readme like in example.
 
 ## Preparation:
- - First you need to download [Visual Studio Code][1]
- - Then create a directory with tf files and two modules (AWS +Azure)
+ - First you need to download [Visual Studio Code][1] ;
+ - Then create a directory with tf files and two modules (AWS +Azure) ;
  - You need to create a [ssh-key-pair][2] from your main PC;
  - Need to create a Credentials for [AWS][3] and [Azure][4] ;
  - After setting all the variables, you should run the command `terraform init` , `terraform fmt` - to align the syntax;
