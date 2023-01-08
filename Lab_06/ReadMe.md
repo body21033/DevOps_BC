@@ -13,11 +13,13 @@
 ## Preparation:
  - First you need to download Visual Studio Code
  - Then create a directory with tf files and two modules (AWS +Azure)
- - After setting all the variables, you should run the command terraform init , terraform fmt - to align the syntax
- - Behind it is terraform plan - to once again, make sure that it is correct.
- - The final command terraform apply - start the infrastructure deployment process
+ - You need to create a ssh-key-pair from your main PC;
+ - Need to create a Credentials for AWS and Azure ;
+ - After setting all the variables, you should run the command terraform init , terraform fmt - to align the syntax;
+ - Behind it is terraform plan - to once again, make sure that it is correct;
+ - The final command terraform apply - start the infrastructure deployment process;
  - At the end of the process, the public addresses of the servers will also be visible.
- - 
+  
 ## My results:
 
 - If you want to check my servers, follow next links:
