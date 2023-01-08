@@ -1,0 +1,31 @@
+# HomeTask_06 - Terraform (AWS+Azure)
+
+
+## Requirements:
+ - Create two terraform modules for provisioning one AWS and one Azure instance;
+ - Use variables.
+ - Provision one SSH public key for created instances;
+ - Make your instances available to everyone on the web;
+ - Add public IP of instances to Output Values;  - Install Grafana to your instances;
+ - Create a beautiful repository structure and clear readme file with information about your project like for your grandma.
+ - Add terraform apply output to the last section of your readme like in example:
+
+## Preparation:
+ - First you need to download Visual Studio Code
+ - Then create a directory with tf files and two modules (AWS +Azure)
+ - After setting all the variables, you should run the command terraform init , terraform fmt - to align the syntax
+ - Behind it is terraform plan - to once again, make sure that it is correct.
+ - The final command terraform apply - start the infrastructure deployment process
+ - At the end of the process, the public addresses of the servers will also be visible.
+ - 
+## My results:
+
+- If you want to check my servers, follow next links:
+  - [AWS-server](http://3.122.53.104/)
+  - [Azure-server](http://104.46.33.228/)
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/outputs.jpg?raw=true)
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/AWS-server.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/Azure-server.jpg?raw=true)
+
