@@ -15,9 +15,9 @@
  - Then create a directory with tf files and two modules (AWS +Azure)
  - You need to create a [ssh-key-pair][2] from your main PC;
  - Need to create a Credentials for [AWS][3] and [Azure][4] ;
- - After setting all the variables, you should run the command terraform init , terraform fmt - to align the syntax;
- - Behind it is terraform plan - to once again, make sure that it is correct;
- - The final command terraform apply - start the infrastructure deployment process;
+ - After setting all the variables, you should run the command `terraform init` , `terraform fmt` - to align the syntax;
+ - Behind it is `terraform plan` - to once again, make sure that it is correct;
+ - The final command `terraform apply` - start the infrastructure deployment process;
  - At the end of the process, the public addresses of the servers will also be visible.
   
 ## My results:
