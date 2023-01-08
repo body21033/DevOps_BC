@@ -18,7 +18,8 @@
  - After setting all the variables, you should run the command `terraform init` , `terraform fmt` - to align the syntax;
  - Behind it is `terraform plan` - to once again, make sure that it is correct;
  - The final command `terraform apply` - start the infrastructure deployment process;
- - At the end of the process, the public addresses of the servers will also be visible.
+ - If you need to remove the infrastructure and all related modules then use the command `terraform destroy`;
+ - At the end of the process, the public addresses of the servers will also be visible in terminal from outputs.
   
 ## My results:
 
