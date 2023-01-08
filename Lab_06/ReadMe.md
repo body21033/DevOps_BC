@@ -11,10 +11,10 @@
  - Add terraform apply output to the last section of your readme like in example:
 
 ## Preparation:
- - First you need to download Visual Studio Code
+ - First you need to download [Visual Studio Code][1]
  - Then create a directory with tf files and two modules (AWS +Azure)
- - You need to create a ssh-key-pair from your main PC;
- - Need to create a Credentials for AWS and Azure ;
+ - You need to create a [ssh-key-pair][2] from your main PC;
+ - Need to create a Credentials for [AWS][3] and [Azure][4] ;
  - After setting all the variables, you should run the command terraform init , terraform fmt - to align the syntax;
  - Behind it is terraform plan - to once again, make sure that it is correct;
  - The final command terraform apply - start the infrastructure deployment process;
@@ -31,3 +31,7 @@
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/AWS-server.jpg?raw=true)
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/Azure-server.jpg?raw=true)
 
+[1]: https://code.visualstudio.com/download
+[2]: https://www.youtube.com/watch?v=1GnEgFAFhN8&ab_channel=MorethanCertified
+[3]: https://www.youtube.com/watch?v=4u2HQCSuQpo&t=152s&ab_channel=ADV-IT
+[4]: https://www.youtube.com/watch?v=IHHIXf39Igo&t=194s&ab_channel=SkylinesAcademy
