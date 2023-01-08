@@ -12,7 +12,7 @@
 
 ## Preparation:
  - First you need to download [Visual Studio Code][1] ;
- - Then create a directory with tf files and two modules (AWS +Azure) ;
+ - Then create a directory with tf files and two modules (AWS +Azure);
  - You need to create a [ssh-key-pair][2] from your main PC;
  - Need to create a Credentials for [AWS][3] and [Azure][4] ;
  - After setting all the variables, you should run the command `terraform init` , `terraform fmt` - to align the syntax;
