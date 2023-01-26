@@ -28,8 +28,11 @@
 Спробуємо повторно додати легкий пароль "22"
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/ubuntu%20changes.jpg?raw=true)
 
-А також для root-користувача:
+А тепер для root-користувача:
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/root%20changes.jpg?raw=true)
+
+Фінальний пароль (складний) "Hallses1504"
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/norm%20pass.jpg?raw=true)
 
 ## Successful completion of the [playbook](https://github.com/body21033/DevOps_BC/blob/main/Lab_05/playbook1.yml)
 
