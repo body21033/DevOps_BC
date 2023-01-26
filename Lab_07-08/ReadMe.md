@@ -20,18 +20,25 @@
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/AWS%20x2.jpg?raw=true)
 
 
-Я перевірив, що легкий пароль "11" був прийнятий без зауважень:
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/easy-pass.jpg?raw=true)
+ I checked that the easy password "11" was accepted without any comments:
 
-Запустимо playbook та перевіримо попередню дію: 
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/easy-pass.jpg?raw=true)
+---------------------------------------------------------------------------
+
+ Let's run the playbook and check the previous action: 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/Ansible-playbook.jpg?raw=true)
+---------------------------------------------------------------------------
 
-- Спробуємо повторно додати легкий пароль "22"
+ Let's try to re-add the easy password "22":
+
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/ubuntu%20changes.jpg?raw=true)
+---------------------------------------------------------------------------
 
-- А тепер для root-користувача
+ And now for the root user:
+
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/root%20changes.jpg?raw=true)
+---------------------------------------------------------------------------
+ Успішна спроба складного паролю "Hallses1504":
 
-- Успішна спроба складного паролю "Hallses1504";
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/norm%20pass.jpg?raw=true)
