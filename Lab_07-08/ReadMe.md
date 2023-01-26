@@ -12,21 +12,24 @@
 2) Install the PAM, 
 3) Using pass without username 
 
-### Making 2 roles:
-
-#### - creating an empty file `/etc/iaac` with rigths `0500` - [an_empty_file](https://github.com/body21033/DevOps_BC/blob/main/Lab_05/roles/create_an_empty_file/tasks/main.yml)
-
-#### - fetch linux distro name/version - [linux-name-and-version](https://github.com/body21033/DevOps_BC/blob/main/Lab_05/roles/fetch_linux_name/tasks/main.yml)
 
 ## My servers on the AWS
 ##### 1x `First server`, 1x `Pam-Test`
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/AWS%20x2.jpg?raw=true)
 
-## My Ansible-tree
- ##### It has 2 roles: `create_an_empty_file`, `fetch_linux_distro_name`
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_05/img/2.png?raw=true)
+Я перевірив, що легкий пароль "11" був прийнятий без зауважень:
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/easy-pass.jpg?raw=true)
+
+Запустимо playbook та перевіримо попередню дію:
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/Ansible-playbook.jpg?raw=true)
+
+Спробуємо повторно додати легкий пароль "22"
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/ubuntu%20changes.jpg?raw=true)
+
+А також для root-користувача:
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/root%20changes.jpg?raw=true)
 
 ## Successful completion of the [playbook](https://github.com/body21033/DevOps_BC/blob/main/Lab_05/playbook1.yml)
 
