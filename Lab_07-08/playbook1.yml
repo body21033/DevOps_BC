@@ -1,0 +1,23 @@
+
+---
+- name: Hostname
+  hosts: server1
+  become: yes
+  gather_facts: yes
+  roles:
+  - hostname
+
+- name: Install_pwquality
+  hosts: server1
+  become: yes
+  roles:
+  - install_pam
+
+
+- name: Prohibition of the use of a username 
+  hosts: server1
+  become: yes
+  gather_facts: yes
+  roles:
+  - pass_without_username
+

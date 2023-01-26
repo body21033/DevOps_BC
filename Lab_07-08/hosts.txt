@@ -1,0 +1,5 @@
+
+[server1]
+linux1 ansible_host=172.31.23.53     owner=Bohdan1 
+
+
