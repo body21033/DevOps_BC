@@ -1,0 +1,3 @@
+---
+# defaults file for hostname
+ path_variable: '/etc/iaac'
