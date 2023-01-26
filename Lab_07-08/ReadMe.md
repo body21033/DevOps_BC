@@ -22,7 +22,8 @@
 Я перевірив, що легкий пароль "11" був прийнятий без зауважень:
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/easy-pass.jpg?raw=true)
 
-Запустимо playbook та перевіримо попередню дію:
+Запустимо playbook та перевіримо попередню дію: 
+
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_07-08/img/Ansible-playbook.jpg?raw=true)
 
 Спробуємо повторно додати легкий пароль "22"
