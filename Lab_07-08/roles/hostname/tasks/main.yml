@@ -1,0 +1,6 @@
+---
+# tasks file for hostname
+   - name: Print hostnames together with a distro name
+     debug:
+        msg:
+        - "{{ansible_hostname}}"
