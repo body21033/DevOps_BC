@@ -13,7 +13,7 @@
  - Next, you need to create an ETC-2 on [AWS];
  - Then make a bash-script with commands about running Jenkins with some plugins and run it;
  - Your Jenkins will have an ETC-2 Public Address + :8080 (port);
- - Use standart Login / Pass = admin / admin (but It`s better if you change it to more secure information);
+ - Use standart Login / Pass = `admin / admin` (but It`s better if you change it to more secure information);
  - 
   
 ## My results:
