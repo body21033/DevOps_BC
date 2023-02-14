@@ -19,9 +19,9 @@
 ## My results:
 
 - If you want to check my servers, follow next links:
-  - [AWS-server](http://3.122.53.104/)
-  - [Azure-server](http://104.46.33.228/)
-
+  - [Jenkins-server](http://18.193.116.46:8080/)
+  
+  
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/outputs.jpg?raw=true)
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/AWS-server.jpg?raw=true)
