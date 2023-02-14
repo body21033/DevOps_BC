@@ -14,7 +14,8 @@
  - Then make a bash-script with commands about running Jenkins with some plugins and run it;
  - Your Jenkins will have an ETC-2 Public Address + :8080 (port);
  - Use standart Login / Pass = `admin / admin` (but It`s better if you change it to more secure information);
- - 
+ - Create 2 brances: `main / dev` (`main`- we use for stable version, `dev` - we use for testing new versions);
+ 
   
 ## My results:
 
