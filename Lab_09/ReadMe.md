@@ -1,4 +1,4 @@
-# HomeTask_06 - Terraform (AWS+Azure)
+# HomeTask_09 - Jenkins (GitHub + Telegram)
 
 
 ## Requirements:
