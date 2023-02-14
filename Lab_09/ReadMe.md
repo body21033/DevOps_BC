@@ -10,14 +10,11 @@
 
 ## Preparation:
  - First you need to download [Visual Studio Code][1] ;
- - Then create a directory with tf files and two modules (AWS +Azure);
- - You need to create a [ssh-key-pair][2] from your main PC;
- - Need to create a Credentials for [AWS][3] and [Azure][4] ;
- - After setting all the variables, you should run the command `terraform init` , `terraform fmt` - to align the syntax;
- - Behind it is `terraform plan` - to once again, make sure that it is correct;
- - The final command `terraform apply` - start the infrastructure deployment process;
- - If you need to remove the infrastructure and all related modules then use the command `terraform destroy`;
- - At the end of the process, the public addresses of the servers will also be visible in terminal from outputs.
+ - Next, you need to create an ETC-2 on [AWS];
+ - Then make a bash-script with commands about running Jenkins with some plugins and run it;
+ - Your Jenkins will have an ETC-2 Public Address + :8080 (port);
+ - Use standart Login / Pass = admin / admin (but It`s better if you change it to more secure information);
+ - 
   
 ## My results:
 
