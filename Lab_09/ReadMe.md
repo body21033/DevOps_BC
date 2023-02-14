@@ -2,13 +2,11 @@
 
 
 ## Requirements:
- - Create two terraform modules for provisioning one AWS and one Azure instance;
- - Use variables;
- - Provision one SSH public key for created instances;
- - Make your instances available to everyone on the web;
- - Add public IP of instances to Output Values;  - Install Grafana to your instances;
- - Create a beautiful repository structure and clear readme file with information about your project like for your grandma;
- - Add terraform apply output to the last section of your readme like in example.
+ - Setup Jenkins on server;
+ - Create Multibranch pipeline and connect it with the Gitlab/Github project repository with the Jenkinsfile;
+ - Jenkinsfile should have several stages: build, tests, notification (telegram bot, etc.);
+ - [Optional] Use branch conditions, vars, etc;
+ - [Optional] Create script for automated Jenkins setup (with user, plugins).
 
 ## Preparation:
  - First you need to download [Visual Studio Code][1] ;
