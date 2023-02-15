@@ -42,7 +42,7 @@
 
 ##
 
-* Create a telegram-bot and give a API-token for Jenkins' access-token;
+* Create a telegram-bot (by `@BotFather` on Telegram) and give a API-token for Jenkins' access-token;
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/4.jpg?raw=true)
 
@@ -85,15 +85,12 @@
 ##
 
 ## Useful links:
-- [Jenkins syntax][5];
-- [Pipepline with a Webhook on Jenkins][6];
-- [Telegram bot][7];
+- [Jenkins syntax][2];
+- [Pipepline with a Webhook on Jenkins][3];
+- [Telegram bot][4];
 
 [1]: https://code.visualstudio.com/download
-[2]: https://www.youtube.com/watch?v=1GnEgFAFhN8&ab_channel=MorethanCertified
-[3]: https://www.youtube.com/watch?v=4u2HQCSuQpo&t=152s&ab_channel=ADV-IT
-[4]: https://www.youtube.com/watch?v=IHHIXf39Igo&t=194s&ab_channel=SkylinesAcademy
-[5]: https://www.jenkins.io/doc/book/pipeline/syntax/#post
-[6]: https://valaxytech.medium.com/multibranch-pipeline-on-jenkins-with-webhook-a65decede4f8
-[7]: https://plugins.jenkins.io/telegram-notifications/
+[2]: https://www.jenkins.io/doc/book/pipeline/syntax/#post
+[3]: https://valaxytech.medium.com/multibranch-pipeline-on-jenkins-with-webhook-a65decede4f8
+[4]: https://plugins.jenkins.io/telegram-notifications/
 
