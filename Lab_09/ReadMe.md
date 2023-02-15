@@ -18,7 +18,7 @@
   
 ## My results:
 
-- If you want to check my servers, follow next links:
+- If you want to check my server, follow next link:
   - [Jenkins-server](http://18.193.116.46:8080/)
   
 ## Execution:
