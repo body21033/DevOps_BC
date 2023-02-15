@@ -26,7 +26,7 @@
 * Create 2 brances: `main / dev` (`main`- we use for stable version, `dev` - we use for testing new versions);  
   
   
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/outputs.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/1.jpg?raw=true)
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/AWS-server.jpg?raw=true)
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/Azure-server.jpg?raw=true)
