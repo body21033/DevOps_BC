@@ -42,6 +42,9 @@
 
 ##
 
+* Create a telegram-bot and give a API-token for Jenkins' access-token;
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/4.jpg?raw=true)
 
 
 [1]: https://code.visualstudio.com/download
