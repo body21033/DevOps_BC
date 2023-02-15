@@ -72,6 +72,12 @@
 
 ##
 
+* We can see our stages;
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/10.png?raw=true)
+
+##
+
 * We see that the 3rd stage is performed only for one of branch;
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/9.jpg?raw=true)
@@ -81,6 +87,7 @@
 ## Useful links:
 - [Jenkins syntax][5];
 - [Pipepline with a Webhook on Jenkins][6];
+- [Telegram bot][7];
 
 [1]: https://code.visualstudio.com/download
 [2]: https://www.youtube.com/watch?v=1GnEgFAFhN8&ab_channel=MorethanCertified
@@ -88,3 +95,5 @@
 [4]: https://www.youtube.com/watch?v=IHHIXf39Igo&t=194s&ab_channel=SkylinesAcademy
 [5]: https://www.jenkins.io/doc/book/pipeline/syntax/#post
 [6]: https://valaxytech.medium.com/multibranch-pipeline-on-jenkins-with-webhook-a65decede4f8
+[7]: https://plugins.jenkins.io/telegram-notifications/
+
