@@ -79,10 +79,12 @@
 ##
 
 ## Useful links:
-- [Jenkins syntax][5]
+- [Jenkins syntax][5];
+- [Pipepline with a Webhook on Jenkins][6];
 
 [1]: https://code.visualstudio.com/download
 [2]: https://www.youtube.com/watch?v=1GnEgFAFhN8&ab_channel=MorethanCertified
 [3]: https://www.youtube.com/watch?v=4u2HQCSuQpo&t=152s&ab_channel=ADV-IT
 [4]: https://www.youtube.com/watch?v=IHHIXf39Igo&t=194s&ab_channel=SkylinesAcademy
 [5]: https://www.jenkins.io/doc/book/pipeline/syntax/#post
+[6]: https://valaxytech.medium.com/multibranch-pipeline-on-jenkins-with-webhook-a65decede4f8
