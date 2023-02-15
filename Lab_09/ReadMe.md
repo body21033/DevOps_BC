@@ -76,8 +76,13 @@
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/9.jpg?raw=true)
 
+##
+
+## Useful links:
+- [Jenkins syntax][5]
+
 [1]: https://code.visualstudio.com/download
 [2]: https://www.youtube.com/watch?v=1GnEgFAFhN8&ab_channel=MorethanCertified
 [3]: https://www.youtube.com/watch?v=4u2HQCSuQpo&t=152s&ab_channel=ADV-IT
 [4]: https://www.youtube.com/watch?v=IHHIXf39Igo&t=194s&ab_channel=SkylinesAcademy
-
+[5]: https://www.jenkins.io/doc/book/pipeline/syntax/#post
