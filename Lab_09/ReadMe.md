@@ -36,7 +36,7 @@
 
 ##
 
-* Put our webhooks to Jenkins' field 
+* Put our webhooks to Jenkins' field; 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/3.jpg?raw=true)
 
@@ -46,6 +46,23 @@
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/4.jpg?raw=true)
 
+##
+
+* Lets confirm our actions at Jenkins' Telegram;
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/5.jpg?raw=true)
+
+##
+
+* We return to Telegram and see the confirmation from Jenkins' approved;
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/6.jpg?raw=true)
+
+##
+
+* We return to Jenkins and run the task;
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/7.jpg?raw=true)
 
 [1]: https://code.visualstudio.com/download
 [2]: https://www.youtube.com/watch?v=1GnEgFAFhN8&ab_channel=MorethanCertified
