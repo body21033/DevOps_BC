@@ -28,8 +28,21 @@
   
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/1.jpg?raw=true)
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/AWS-server.jpg?raw=true)
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_06/img/Azure-server.jpg?raw=true)
+##
+
+* We need to give webhooks from GitHub to Jenkins;
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/2.jpg?raw=true)
+
+##
+
+* Put our webhooks to Jenkins' field 
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/3.jpg?raw=true)
+
+##
+
+
 
 [1]: https://code.visualstudio.com/download
 [2]: https://www.youtube.com/watch?v=1GnEgFAFhN8&ab_channel=MorethanCertified
