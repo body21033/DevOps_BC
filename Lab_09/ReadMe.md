@@ -64,6 +64,18 @@
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/7.jpg?raw=true)
 
+##
+
+* After that, a notification about the building arrives in the Telegram bot;
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/8.jpg?raw=true)
+
+##
+
+* We see that the 3rd stage is performed only for one of branch;
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/9.jpg?raw=true)
+
 [1]: https://code.visualstudio.com/download
 [2]: https://www.youtube.com/watch?v=1GnEgFAFhN8&ab_channel=MorethanCertified
 [3]: https://www.youtube.com/watch?v=4u2HQCSuQpo&t=152s&ab_channel=ADV-IT
