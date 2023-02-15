@@ -23,7 +23,7 @@
   
 ## Execution:
   
-* Create 2 brances: `main / dev` (`main`- we use for stable version, `dev` - we use for testing new versions);  
+* Create 2 branches: `main / dev` (`main`- we use for stable version, `dev` - we use for testing new versions);  
   
   
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/1.jpg?raw=true)
