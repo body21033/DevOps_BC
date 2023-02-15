@@ -12,7 +12,7 @@
  - First you need to download [Visual Studio Code][1] ;
  - Next, you need to create an ETC-2 on AWS;
  - Then make a bash-script with commands about running Jenkins with some plugins and run it;
- - Your Jenkins will have an ETC-2 Public Address + :8080 (port);
+ - Your Jenkins will have an ETC-2 Public Address `+ :8080` (port);
  - Use standart Login / Pass = `admin / admin` (but It`s better if you change it to more secure information);
   
   
@@ -78,16 +78,16 @@
 
 ##
 
-* We see that the 3rd stage is performed only for one of branch;
+* We see that the 3rd stage is performed only for one of branch.
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/9.jpg?raw=true)
 
 ##
 
 ## Useful links:
-- [Jenkins syntax][2];
-- [Pipepline with a Webhook on Jenkins][3];
-- [Telegram bot][4];
+- [Jenkins syntax][2]
+- [Pipepline with a Webhook on Jenkins][3]
+- [Telegram bot][4]
 
 [1]: https://code.visualstudio.com/download
 [2]: https://www.jenkins.io/doc/book/pipeline/syntax/#post
