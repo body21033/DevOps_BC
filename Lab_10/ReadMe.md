@@ -22,12 +22,12 @@ example: google.com );
 5. Report save in GitHub repository
 
 ## Preparation:
- - First you need to create an ETC-2 on AWS;
- - Next, you need to install Docker Engine (In my case, I wrote a handy bash script);
- - Then make a Dockerfile;
+ - First you need to create an `ETC-2 on AWS`;
+ - Next, you need to install `Docker Engine` (In my case, I wrote a handy bash script);
+ - Then make a `Dockerfile`;
  - After `built` our Dockerfile;
  - And `run` it;
- - Your Docker-Container will have an ETC-2 Public Address `+ :8080` (port);
+ - Your `Docker-Container` will have an ETC-2 Public Address `+ :8080` (port);
    
 ## My results:
 
