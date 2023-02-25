@@ -76,11 +76,11 @@ example: google.com );
 ## Useful links:
 - [Install Docker Engine][2]
 - [Configuration the timezone during build][3]
-- [Telegram bot][4]
+- [Useful Youtube Channel][4]
 
 [1]: http://3.123.229.58:8080/
 [2]: https://docs.docker.com/engine/install/ubuntu/
 [3]: https://rtfm.co.ua/en/docker-configure-tzdata-and-timezone-during-build/
-[4]: https://plugins.jenkins.io/telegram-notifications/
+[4]: https://www.youtube.com/watch?v=I18TNwZ2Nqg&t=771s&ab_channel=ADV-IT
 
 
