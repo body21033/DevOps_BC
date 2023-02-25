@@ -22,8 +22,8 @@ example: google.com );
 5. Report save in GitHub repository
 
 ## Preparation:
- - First you need to download [Visual Studio Code][1] ;
- - Next, you need to create an ETC-2 on AWS;
+ - First you need to create an ETC-2 on AWS;
+ - Next, you need to install Docker Engine (In my case, I wrote a handy bash script);
  - Then make a bash-script with commands about running Jenkins with some plugins and run it;
  - Your Jenkins will have an ETC-2 Public Address `+ :8080` (port);
  - Use standart Login / Pass = `admin / admin` (but It`s better if you change it to more secure information);
