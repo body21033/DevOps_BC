@@ -36,10 +36,10 @@ example: google.com );
   
 ## Execution:
   
-* Create 2 branches: `main / dev` (`main`- we use for stable version, `dev` - we use for testing new versions);  
+* Проверяем статус сервиса Docker:  
   
   
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/1.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/1.jpg?raw=true)
 
 ##
 
