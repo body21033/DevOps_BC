@@ -55,9 +55,9 @@ example: google.com );
 
 ##
 
-* Create a telegram-bot (by `@BotFather` on Telegram) and give a API-token for Jenkins' access-token;
+* Просматриваем наши images:
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/4.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/4.jpg?raw=true)
 
 ##
 
