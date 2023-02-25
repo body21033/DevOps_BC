@@ -67,7 +67,7 @@ example: google.com );
 
 ##
 
-* Переходим на Web-страницу (Public-IP `+8080 port`);
+* Переходим на Web-страницу ([`Public-IP +:8080 port`][1]);
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/6.jpg?raw=true)
 
