@@ -61,9 +61,9 @@ example: google.com );
 
 ##
 
-* Lets confirm our actions at Jenkins' Telegram;
+* Запускаем наш `Image`:
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/5.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/5.jpg?raw=true)
 
 ##
 
