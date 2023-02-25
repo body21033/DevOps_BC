@@ -31,8 +31,8 @@ example: google.com );
    
 ## My results:
 
-- If you want to check my server, follow next link:
-  - [Jenkins-server](http://18.193.116.46:8080/)
+- If you want to check my first-server, follow next link:
+  - [Jenkins-server](http://3.123.229.58:8080/)
   
 ## Execution:
   
