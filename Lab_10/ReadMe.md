@@ -43,9 +43,9 @@ example: google.com );
 
 ##
 
-* We need to give webhooks from GitHub to Jenkins;
+* Создаём и просматриваем Dockerfile:
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/2.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/2.jpg?raw=true)
 
 ##
 
