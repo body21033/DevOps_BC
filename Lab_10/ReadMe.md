@@ -36,38 +36,38 @@ example: google.com );
   
 ## Execution 1:
   
-* Проверяем статус сервиса `Docker`:  
+* Checking the status of the `Docker service`:  
   
   
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/1.jpg?raw=true)
 
 ##
 
-* Создаём и просматриваем `Dockerfile`:
+* Building and Viewing `Dockerfile`:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/2.jpg?raw=true)
 
 ##
 
-* Билдим наш `Dockerfile`: 
+* Build our `Dockerfile`: 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/3.jpg?raw=true)
 
 ##
 
-* Просматриваем наши `Images`:
+* Browsing our `Images`:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/4.jpg?raw=true)
 
 ##
 
-* Запускаем наш `Image`:
+* Run our `Image`:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/5.jpg?raw=true)
 
 ##
 
-* Переходим на Web-страницу ([`Public-IP +:8080 port`][1]);
+* Go to web page ([`Public-IP +:8080 port`][1]);
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/6.jpg?raw=true)
 
