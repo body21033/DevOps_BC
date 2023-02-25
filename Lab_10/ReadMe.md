@@ -15,9 +15,9 @@
 2. Prepare one dockerfile based on ubuntu with the ping command
 3. One container must have access to the private and public networks the second container
 must be in the private network
-4. A) Run a container that has access to the public network and ping some resources (
+4. - A) Run a container that has access to the public network and ping some resources (
 example: google.com ); 
-   B) The second container ping the first container via a private network
+   - B) The second container ping the first container via a private network;
 
 5. Report save in GitHub repository
 
