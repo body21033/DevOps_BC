@@ -74,13 +74,13 @@ example: google.com );
 
 
 ## Useful links:
-- [Jenkins syntax][2]
-- [Pipepline with a Webhook on Jenkins][3]
+- [Install Docker Engine][2]
+- [Configuration the timezone during build][3]
 - [Telegram bot][4]
 
-[1]: https://code.visualstudio.com/download
-[2]: https://www.jenkins.io/doc/book/pipeline/syntax/#post
-[3]: https://valaxytech.medium.com/multibranch-pipeline-on-jenkins-with-webhook-a65decede4f8
+[1]: http://3.123.229.58:8080/
+[2]: https://docs.docker.com/engine/install/ubuntu/
+[3]: https://rtfm.co.ua/en/docker-configure-tzdata-and-timezone-during-build/
 [4]: https://plugins.jenkins.io/telegram-notifications/
 
 
