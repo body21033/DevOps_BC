@@ -12,7 +12,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get -y update
 RUN apt-get -y install apache2
 
-RUN echo 'Hello World from Docker!' > /var/www/html/index.html
+RUN echo 'This page was made by Bohdan Chumachenko from Dockerfile' > /var/www/html/index.html
 
 
 CMD ["/usr/sbin/apache2ctl", "-D","FOREGROUND"]
