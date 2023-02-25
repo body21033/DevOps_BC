@@ -36,26 +36,26 @@ example: google.com );
   
 ## Execution:
   
-* Проверяем статус сервиса Docker:  
+* Проверяем статус сервиса `Docker`:  
   
   
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/1.jpg?raw=true)
 
 ##
 
-* Создаём и просматриваем Dockerfile:
+* Создаём и просматриваем `Dockerfile`:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/2.jpg?raw=true)
 
 ##
 
-* Билдим наш Dockerfile: 
+* Билдим наш `Dockerfile`: 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/3.jpg?raw=true)
 
 ##
 
-* Просматриваем наши images:
+* Просматриваем наши `Images`:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/4.jpg?raw=true)
 
@@ -67,35 +67,11 @@ example: google.com );
 
 ##
 
-* We return to Telegram and see the confirmation from Jenkins' approved;
+* Переходим на Web-страницу (Public-IP `+8080 port`);
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/6.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/6.jpg?raw=true)
 
-##
 
-* We return to Jenkins and run the task;
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/7.jpg?raw=true)
-
-##
-
-* After that, a notification about the building arrives in the Telegram bot;
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/8.jpg?raw=true)
-
-##
-
-* We can see our stages;
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/10.png?raw=true)
-
-##
-
-* We see that the 3rd stage is performed only for one of branch.
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/9.jpg?raw=true)
-
-##
 
 ## Useful links:
 - [Jenkins syntax][2]
