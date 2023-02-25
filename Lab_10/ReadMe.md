@@ -79,9 +79,12 @@ example: google.com );
 - [Useful Youtube Channel][4]
 
 
-## Execution 2:
+
+
+
+## Execution 2 -- In developing....
   
-* Checking the status of the `Docker service`: 
+
 
 
 
