@@ -49,9 +49,9 @@ example: google.com );
 
 ##
 
-* Put our webhooks to Jenkins' field; 
+* Билдим наш Dockerfile: 
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_09/img/3.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/3.jpg?raw=true)
 
 ##
 
