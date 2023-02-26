@@ -82,7 +82,7 @@ example: google.com );
 
 
 
-## Execution 2 
+# Execution 2 
 
 * Переглянемо вміст Dockerfile та побудованого образу: 
 
