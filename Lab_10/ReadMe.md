@@ -84,7 +84,7 @@ example: google.com );
 
 # Execution 2 
 
-* Let's review the contents of the Dockerfile and the built image: 
+* Let's review the contents of the `Dockerfile` and the built `Image`: 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/78.jpg?raw=true)
 
@@ -96,38 +96,38 @@ example: google.com );
 
 ##
  
-  * Let's create a Public-network and a Private-network:  
+  * Let's create a `Public-network` and a `Private-network`:  
   
   
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/71.jpg?raw=true)
 
 ##
 
-* Let's start the public-container and review its network configurations:
+* Let's start the `Public-container` and review its network configurations:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/72.jpg?raw=true)
 
 ##
 
-* Let's add a private-network to the previous public-container (through the second console): 
+* Let's add a `Private-network` to the previous `Public-container` (through the second console): 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/73.jpg?raw=true)
 
 ##
 
-* Let's launch a private-container and a private network to it:
+* Let's launch a `Private-container` and a `Private-network` to it:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/74.jpg?raw=true)
 
 ##
 
-* Ping from private-container ->> public-container and Google.com :
+* Ping from `Private-container` ->> `Public-container` and `Google.com` :
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/75.jpg?raw=true)
 
 ##
 
-* Ping from public-container ->> private-container and Google.com :
+* Ping from `Public-container` ->> `Private-container` and `Google.com` :
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/76.jpg?raw=true)
 
