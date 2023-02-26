@@ -84,19 +84,18 @@ example: google.com );
 
 ## Execution 2 
 
+* Переглянемо вміст Dockerfile та побудованого образу: 
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/78.jpg?raw=true)
+
+##
 
 * Переглянемо наші запущені контейнери: 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/77.jpg?raw=true)
 
 ##
-
-* Переглянемо вміст Dockerfile та побудованого образу: 
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/78.jpg?raw=true)
-
-##
-  
+ 
   * Створимо Public-мережу та Private-мережу:  
   
   
