@@ -151,5 +151,5 @@ example: google.com );
 [7]: https://hub.docker.com/r/nicolaka/netshoot
 [8]: https://www.youtube.com/watch?v=_uZQtRyF6Eg&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=1&t=7992s&ab_channel=BogdanStashchuk
 [9]: https://www.youtube.com/watch?v=VeiddqzBMls&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=2&ab_channel=RostislavO.
-[10] https://www.youtube.com/watch?v=ctJnI43ermQ&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=3&ab_channel=RomNero
-[11] https://youtu.be/wskg5903K8I?list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt
+[10]: https://www.youtube.com/watch?v=ctJnI43ermQ&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=3&ab_channel=RomNero
+[11]: https://youtu.be/wskg5903K8I?list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt
