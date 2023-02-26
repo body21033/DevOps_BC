@@ -82,7 +82,7 @@ example: google.com );
 
 
 
-## Execution 2 -- In developing....
+## Execution 2 
   
   * Створимо Public-мережу та Private-мережу:  
   
