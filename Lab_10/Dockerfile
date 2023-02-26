@@ -9,6 +9,8 @@ FROM ubuntu:20.04
 ENV TZ=Europe/Kiev
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
+RUN apt update && apt install -y inetutils-ping
+
 RUN apt-get -y update
 RUN apt-get -y install apache2
 
