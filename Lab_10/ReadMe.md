@@ -84,10 +84,54 @@ example: google.com );
 
 ## Execution 2 -- In developing....
   
+  * Створимо Public-мережу та Private-мережу:  
+  
+  
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/71.jpg?raw=true)
 
+##
 
+* Запустимо public-контейнер та переглянемо його конфігурації мережі:
 
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/72.jpg?raw=true)
 
+##
+
+* Додамо private-мережу до попереднього public-контейнера (через другу консоль): 
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/73.jpg?raw=true)
+
+##
+
+* Запустимо private-контейнер та private-мережу до нього:
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/74.jpg?raw=true)
+
+##
+
+* Пропінгуємо з private-контейнера ->> public-контейнер та Google.com :
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/75.jpg?raw=true)
+
+##
+
+* Пропінгуємо з public-контейнера ->> private-контейнер та Google.com :
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/76.jpg?raw=true)
+
+##
+
+* Переглянемо наші запущені контейнери: 
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/77.jpg?raw=true)
+
+##
+
+* Переглянемо вміст Dockerfile та побудованого образу: 
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/78.jpg?raw=true)
+
+##
 
 
 [1]: http://3.123.229.58:8080/
