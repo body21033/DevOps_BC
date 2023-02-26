@@ -84,50 +84,50 @@ example: google.com );
 
 # Execution 2 
 
-* Переглянемо вміст Dockerfile та побудованого образу: 
+* Let's review the contents of the Dockerfile and the built image: 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/78.jpg?raw=true)
 
 ##
 
-* Переглянемо наші запущені контейнери: 
+* Let's review our running containers: 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/77.jpg?raw=true)
 
 ##
  
-  * Створимо Public-мережу та Private-мережу:  
+  * Let's create a Public-network and a Private-network:  
   
   
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/71.jpg?raw=true)
 
 ##
 
-* Запустимо public-контейнер та переглянемо його конфігурації мережі:
+* Let's start the public-container and review its network configurations:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/72.jpg?raw=true)
 
 ##
 
-* Додамо private-мережу до попереднього public-контейнера (через другу консоль): 
+* Let's add a private-network to the previous public-container (through the second console): 
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/73.jpg?raw=true)
 
 ##
 
-* Запустимо private-контейнер та private-мережу до нього:
+* Let's launch a private-container and a private network to it:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/74.jpg?raw=true)
 
 ##
 
-* Пропінгуємо з private-контейнера ->> public-контейнер та Google.com :
+* Ping from private-container ->> public-container and Google.com :
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/75.jpg?raw=true)
 
 ##
 
-* Пропінгуємо з public-контейнера ->> private-контейнер та Google.com :
+* Ping from public-container ->> private-container and Google.com :
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/76.jpg?raw=true)
 
