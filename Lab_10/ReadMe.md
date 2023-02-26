@@ -133,12 +133,23 @@ example: google.com );
 
 ##
 
+## Useful links for Task 2:
+- [How to add comands to Dockerfile (RUN)][5]
+- [Docker Network Create][6]
+- [nicolaka/netshoot][7]
+- [Docker #1][8]
+- [What is a Docker][9]
+- [Docker's Networks][10]
+- [Docker's Build's][11]
 
 [1]: http://3.123.229.58:8080/
 [2]: https://docs.docker.com/engine/install/ubuntu/
 [3]: https://rtfm.co.ua/en/docker-configure-tzdata-and-timezone-during-build/
 [4]: https://www.youtube.com/watch?v=I18TNwZ2Nqg&t=771s&ab_channel=ADV-IT
-
-
-
-
+[5]: https://computingforgeeks.com/how-to-install-ifconfig-on-ubuntu-focal-fossa/
+[6]: https://docs.docker.com/engine/reference/commandline/network_create/
+[7]: https://hub.docker.com/r/nicolaka/netshoot
+[8]: https://www.youtube.com/watch?v=_uZQtRyF6Eg&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=1&t=7992s&ab_channel=BogdanStashchuk
+[9]: https://www.youtube.com/watch?v=VeiddqzBMls&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=2&ab_channel=RostislavO.
+[10] https://www.youtube.com/watch?v=ctJnI43ermQ&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=3&ab_channel=RomNero
+[11] https://youtu.be/wskg5903K8I?list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt
