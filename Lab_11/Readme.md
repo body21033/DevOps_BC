@@ -14,14 +14,7 @@
  - Next, you need to check your network connection (ping from `master` to `node`);
  - Then write some parametrs to /etc/hosts (with master and node IP-addresses);
  - After it download some packets K8s for `double-kube`;
- - And `run` it;
- - Your `Docker-Container` will have an ETC-2 Public Address `+ :8080` (port);
-   
-## My results:
-
-- If you want to check my first-server, follow next link:
-  - [Docker-server-1](http://3.123.229.58:8080/)
-  
+    
 # Execution 1:
   
 * Create `kubemaster` and `kubenode`:  
@@ -37,34 +30,15 @@
 
 ##
 
-* Build our `Dockerfile`: 
+## Final Result: 
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/3.jpg?raw=true)
-
-##
-
-* Browsing our `Images`:
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/4.jpg?raw=true)
-
-##
-
-* Run our `Image`:
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/5.jpg?raw=true)
-
-##
-
-* Go to web page ([`Public-IP +:8080 port`][1]);
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/6.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_11/img/finish.jpg?raw=true)
 
 
 
 ## Useful links for Task 1:
-- [Install Docker Engine][2]
-- [Configuration the timezone during build][3]
-- [Useful Youtube Channel][4]
+- [Install K8s][1]
+- [Link on Setup Kubernetes.docx][2]
 
 
 
@@ -72,7 +46,8 @@
 
 
 
-[1]: http://3.123.229.58:8080/
-[2]: https://docs.docker.com/engine/install/ubuntu/
+[1]: https://youtu.be/q_nj340pkQo?list=PLg5SS_4L6LYvN1RqaVesof8KAf-02fJSi
+[2]: https://docs.google.com/document/d/1pdjbDpzc2l23B_w84-m2ft1JdLVYXsvA/edit
+
 
 
