@@ -31,9 +31,9 @@
 
 ##
 
-* Building and Viewing `Dockerfile`:
+* Add our IP-addresses for `master` and `node`:
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/2.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_11/img/hosts.jpg?raw=true)
 
 ##
 
