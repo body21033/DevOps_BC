@@ -24,10 +24,10 @@
   
 # Execution 1:
   
-* Checking the status of the `Docker service`:  
+* Create `kubemaster` and `kubenode`:  
   
   
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/1.jpg?raw=true)
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_11/img/VMs.jpg?raw=true)
 
 ##
 
