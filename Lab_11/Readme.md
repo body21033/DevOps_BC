@@ -10,10 +10,10 @@
 
 
 ## Preparation:
- - First you need to create an `ETC-2 on AWS`;
- - Next, you need to install `Docker Engine` (In my case, I wrote a handy bash script);
- - Then make a `Dockerfile`;
- - After `built` our Dockerfile;
+ - First you need to create an `2 VM instances on GCP`;
+ - Next, you need to check your network connection (ping from `master` to `node`);
+ - Then write some parametrs to /etc/hosts (with master and node IP-addresses);
+ - After it download some packets K8s for `double-kube`;
  - And `run` it;
  - Your `Docker-Container` will have an ETC-2 Public Address `+ :8080` (port);
    
