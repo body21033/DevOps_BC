@@ -1,9 +1,9 @@
-### 1
-Link on [WorkerNode.txt][1];
+### Task 1
+-- Link on [WorkerNode.txt][1];
 
 
-### 2
-Create a namespaces:
+### Task 2
+-- Create a namespaces:
 ```
 kubectl create ns k12
 namespace/k12 created
@@ -19,8 +19,8 @@ kube-system        Active   29h
 tigera-operator    Active   29h
 
 ```
-### 3
-Show Deployment:
+### Task 3
+-- Show Deployment:
 ```
 kubectl apply -f deployment-final.yaml -n k12
 deployment.apps/nginx--cluster created
@@ -60,7 +60,7 @@ Events:
   ----    ------             ----  ----                   -------
   Normal  ScalingReplicaSet  83s   deployment-controller  Scaled up replica set nginx--cluster-6b7f675859 to 3
 ```
-Show pods: 
+-- Show pods: 
 ```
 
 kubectl get pods -n k12
@@ -72,49 +72,49 @@ nginx--cluster-6b7f675859-lwg52   1/1     Running     0          158m
 nodeport-curl-bx8db               0/1     Completed   0          23m
 
 ```
- Show status service:
+-- Show status service:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/nginx--cluster.jpg?raw=true)
 
 ##
 
- Show pods' status:
+-- Show pods' status:
  
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/pods%20status.jpg?raw=true)
 
 ##
 
-Curl from WorkerNode to `ClusterIP`:
+-- Curl from WorkerNode to `ClusterIP`:
 
  ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/port%2080.jpg?raw=true)
 
 ##
  
-Curl from WorkerNode to `NodePort`
+-- Curl from WorkerNode to `NodePort`
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/port%2030789.jpg?raw=true)
 
-### 4
+### Task 4
 
-Check `ClusterIP` and `NodePort`:
+-- Check `ClusterIP` and `NodePort`:
  
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/get%20service.jpg?raw=true)
 
 ##
 
-Apply NodePort.yaml:
+-- Apply NodePort.yaml:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/node.jpg?raw=true)
 
 ##
 
-Apply ClusterIP.yaml:
+-- Apply ClusterIP.yaml:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/cluster.jpg?raw=true)
 
-## 5
+## Task 5
 
-Prepare Cronjob.yaml:
+-- Prepare Cronjob.yaml:
 ```
 apiVersion: batch/v1
 kind: CronJob
@@ -141,7 +141,7 @@ spec:
 
 ##
 
-Describe cronjob:
+-- Describe cronjob:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/cronjob.jpg?raw=true)
 
