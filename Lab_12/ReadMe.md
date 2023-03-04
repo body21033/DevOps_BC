@@ -69,12 +69,23 @@ nginx--cluster-6b7f675859-lwg52   1/1     Running     0          158m
 nodeport-curl-bx8db               0/1     Completed   0          23m
 
 ```
-Show status service:
+- Show status service:
+
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/nginx--cluster.jpg?raw=true)
 
+##
+
+* Show pods' status:
+ 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/pods%20status.jpg?raw=true)
 
+##
+
+* Check `ClusterIP` and `NodePort`:
+ 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/get%20service.jpg?raw=true)
+
+##
 
 Logs for 
 
