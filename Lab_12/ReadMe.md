@@ -1,5 +1,6 @@
 
 ### 2
+Create a namespaces:
 ```
 kubectl create ns k12
 namespace/k12 created
@@ -16,6 +17,7 @@ tigera-operator    Active   29h
 
 ```
 ### 3
+Show Deployment:
 ```
 kubectl apply -f deployment-final.yaml -n k12
 deployment.apps/nginx--cluster created
@@ -54,8 +56,23 @@ Events:
   Type    Reason             Age   From                   Message
   ----    ------             ----  ----                   -------
   Normal  ScalingReplicaSet  83s   deployment-controller  Scaled up replica set nginx--cluster-6b7f675859 to 3
+```
+Show pods: 
+```
+
+kubectl get pods -n k12
+NAME                              READY   STATUS      RESTARTS   AGE
+cluster-ip-curl-job-q86r2         0/1     Completed   0          23m
+nginx--cluster-6b7f675859-grs6p   1/1     Running     0          158m
+nginx--cluster-6b7f675859-h4t4f   1/1     Running     0          158m
+nginx--cluster-6b7f675859-lwg52   1/1     Running     0          158m
+nodeport-curl-bx8db               0/1     Completed   0          23m
 
 ```
+Show status service:
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/get%20service.jpg?raw=true)
+
 
 ### 4
 ```
