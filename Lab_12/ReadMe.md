@@ -146,7 +146,7 @@ spec:
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/cronjob.jpg?raw=true)
 
 
-## Useful links for Task 2:
+## Useful links:
 -- [K8S with YouTube-Channel ADV-IT ][2].
 
 [1]: https://github.com/body21033/DevOps_BC/blob/f36155b02ef3ed063f50f35fb5f3468215d8b447/Lab_12/node-info.txt
