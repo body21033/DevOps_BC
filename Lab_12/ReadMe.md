@@ -107,4 +107,32 @@ Apply ClusterIP.yaml:
 ## 5
 
 Prepare Cronjob.yaml:
+```
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: nginx-port-status
+  namespace: k12
+spec:
+  schedule: "*/3 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: nmap
+            image: instrumentisto/nmap
+            imagePullPolicy: IfNotPresent
+            command:
+            - /bin/sh
+            - -c
+            - echo 'ClusterIP status:'; nmap -p 80 10.104.254.237 --script=http-headers
+          restartPolicy: OnFailure
+      backoffLimit: 3
+```
+
+##
+
+Describe cronjob:
+
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/cronjob.jpg?raw=true)
