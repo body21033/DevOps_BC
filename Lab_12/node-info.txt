@@ -1,0 +1,90 @@
+kubectl get nodes -o wide
+NAME         STATUS   ROLES                  AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE             KERNEL-VERSION    CONTAINER-RUNTIME
+kubemaster   Ready    control-plane,master   32h   v1.26.2   10.132.0.2    <none>        Ubuntu 20.04.5 LTS   5.15.0-1029-gcp   containerd://1.6.18
+kubenode     Ready    worker                 32h   v1.26.2   10.132.0.3    <none>        Ubuntu 20.04.5 LTS   5.15.0-1029-gcp   containerd://1.6.18
+
+
+
+kubectl describe node kubenode
+Name:               kubenode
+Roles:              worker
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=kubenode
+                    kubernetes.io/os=linux
+                    node-role.kubernetes.io/worker=
+Annotations:        csi.volume.kubernetes.io/nodeid: {"csi.tigera.io":"kubenode"}
+                    kubeadm.alpha.kubernetes.io/cri-socket: unix:///var/run/containerd/containerd.sock
+                    node.alpha.kubernetes.io/ttl: 0
+                    projectcalico.org/IPv4Address: 10.132.0.3/32
+                    projectcalico.org/IPv4VXLANTunnelAddr: 192.168.188.192
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Thu, 02 Mar 2023 18:10:12 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  kubenode
+  AcquireTime:     <unset>
+  RenewTime:       Sat, 04 Mar 2023 02:19:25 +0000
+Conditions:
+  Type                 Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----                 ------  -----------------                 ------------------                ------                       -------
+  NetworkUnavailable   False   Thu, 02 Mar 2023 18:13:33 +0000   Thu, 02 Mar 2023 18:13:33 +0000   CalicoIsUp                   Calico is running on this node
+  MemoryPressure       False   Sat, 04 Mar 2023 02:14:31 +0000   Thu, 02 Mar 2023 18:10:11 +0000   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure         False   Sat, 04 Mar 2023 02:14:31 +0000   Thu, 02 Mar 2023 18:10:11 +0000   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure          False   Sat, 04 Mar 2023 02:14:31 +0000   Thu, 02 Mar 2023 18:10:11 +0000   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready                True    Sat, 04 Mar 2023 02:14:31 +0000   Thu, 02 Mar 2023 18:13:25 +0000   KubeletReady                 kubelet is posting ready status. AppArmor enabled
+Addresses:
+  InternalIP:  10.132.0.3
+  Hostname:    kubenode
+Capacity:
+  cpu:                4
+  ephemeral-storage:  20134592Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             8136980Ki
+  pods:               110
+Allocatable:
+  cpu:                4
+  ephemeral-storage:  18556039957
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             8034580Ki
+  pods:               110
+System Info:
+  Machine ID:                 6e85b339f50fcceb7322f0555569d51a
+  System UUID:                6e85b339-f50f-cceb-7322-f0555569d51a
+  Boot ID:                    e53074b6-ee62-4fc8-9059-c8fd9ce10d40
+  Kernel Version:             5.15.0-1029-gcp
+  OS Image:                   Ubuntu 20.04.5 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://1.6.18
+  Kubelet Version:            v1.26.2
+  Kube-Proxy Version:         v1.26.2
+PodCIDR:                      192.168.1.0/24
+PodCIDRs:                     192.168.1.0/24
+Non-terminated Pods:          (9 in total)
+  Namespace                   Name                                 CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                 ------------  ----------  ---------------  -------------  ---
+  calico-apiserver            calico-apiserver-5f79fbc7f6-dfpls    0 (0%)        0 (0%)      0 (0%)           0 (0%)         32h
+  calico-system               calico-node-ct757                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         32h
+  calico-system               calico-typha-88cc79d5b-rpzh2         0 (0%)        0 (0%)      0 (0%)           0 (0%)         32h
+  calico-system               csi-node-driver-jnkjk                0 (0%)        0 (0%)      0 (0%)           0 (0%)         32h
+  k12                         nginx--cluster-6b7f675859-grs6p      0 (0%)        0 (0%)      0 (0%)           0 (0%)         164m
+  k12                         nginx--cluster-6b7f675859-h4t4f      0 (0%)        0 (0%)      0 (0%)           0 (0%)         164m
+  k12                         nginx--cluster-6b7f675859-lwg52      0 (0%)        0 (0%)      0 (0%)           0 (0%)         164m
+  kube-system                 kube-proxy-f2nhg                     0 (0%)        0 (0%)      0 (0%)           0 (0%)         32h
+  tigera-operator             tigera-operator-54b47459dd-9wnr4     0 (0%)        0 (0%)      0 (0%)           0 (0%)         32h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests  Limits
+  --------           --------  ------
+  cpu                0 (0%)    0 (0%)
+  memory             0 (0%)    0 (0%)
+  ephemeral-storage  0 (0%)    0 (0%)
+  hugepages-1Gi      0 (0%)    0 (0%)
+  hugepages-2Mi      0 (0%)    0 (0%)
+Events:              <none>
+
