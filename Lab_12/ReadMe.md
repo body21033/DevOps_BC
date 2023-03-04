@@ -86,13 +86,13 @@ nodeport-curl-bx8db               0/1     Completed   0          23m
 
 Curl from WorkerNode to `ClusterIP`:
 
- ![image]()
+ ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/port%2080.jpg?raw=true)
 
 ##
  
 Curl from WorkerNode to `NodePort`
 
-![image]()
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/port%2030789.jpg?raw=true)
 
 ### 4
 
