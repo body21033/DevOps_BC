@@ -84,10 +84,15 @@ nodeport-curl-bx8db               0/1     Completed   0          23m
 
 ##
 
- 
+Curl from WorkerNode to `ClusterIP`:
+
+ ![image]()
 
 ##
  
+Curl from WorkerNode to `NodePort`
+
+![image]()
 
 ### 4
 
