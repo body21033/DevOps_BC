@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: cluster-ip-curl-job
+  namespace: k12
+spec:
+  template:
+    spec:
+      containers:
+      - name: curl-check
+        image: curlimages/curl
+        command: ['curl', '10.104.254.237']
+      restartPolicy: OnFailure
+  backoffLimit: 3

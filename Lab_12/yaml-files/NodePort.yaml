@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: nodeport-curl
+  namespace: k12
+spec:
+  template:
+    spec:
+      containers:
+      - name: nodeport-curl
+        image: curlimages/curl
+        command: ['curl', '10.132.0.3:30789']
+      restartPolicy: OnFailure
+  backoffLimit: 3
