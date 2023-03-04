@@ -70,9 +70,13 @@ nodeport-curl-bx8db               0/1     Completed   0          23m
 
 ```
 Show status service:
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/nginx--cluster.jpg?raw=true)
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/pods%20status.jpg?raw=true)
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/get%20service.jpg?raw=true)
 
+Logs for 
 
 ### 4
 ```
