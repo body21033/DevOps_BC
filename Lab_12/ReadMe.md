@@ -96,6 +96,20 @@ NAME                 TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)        A
 nginx--cluster--ip   ClusterIP   10.104.254.237   <none>        80/TCP         2m21s
 nginx--nodeport      NodePort    10.102.253.38    <none>        80:30789/TCP   2m21s
 
+```
+##
+
+Apply NodePort.yaml:
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/node.jpg?raw=true)
+
+##
+
+Apply ClusterIP.yaml:
+
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/cluster.jpg?raw=true)
+
+##
 
 kubectl apply -f cluster-ip.yaml -n k12
 job.batch/cluster-ip-curl-job created
