@@ -1,3 +1,6 @@
+### 1
+Link on [WorkerNode][1];
+
 
 ### 2
 Create a namespaces:
@@ -136,3 +139,8 @@ spec:
 Describe cronjob:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/cronjob.jpg?raw=true)
+
+
+
+
+[1]: https://github.com/body21033/DevOps_BC/blob/f36155b02ef3ed063f50f35fb5f3468215d8b447/Lab_12/node-info.txt
