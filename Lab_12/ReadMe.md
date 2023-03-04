@@ -69,34 +69,29 @@ nginx--cluster-6b7f675859-lwg52   1/1     Running     0          158m
 nodeport-curl-bx8db               0/1     Completed   0          23m
 
 ```
-- Show status service:
+ Show status service:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/nginx--cluster.jpg?raw=true)
 
 ##
 
-* Show pods' status:
+ Show pods' status:
  
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/pods%20status.jpg?raw=true)
 
 ##
 
-* Check `ClusterIP` and `NodePort`:
+ 
+
+##
+ 
+
+### 4
+
+Check `ClusterIP` and `NodePort`:
  
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/get%20service.jpg?raw=true)
 
-##
-
-Logs for 
-
-### 4
-```
-kubectl get service -n k12
-NAME                 TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE
-nginx--cluster--ip   ClusterIP   10.104.254.237   <none>        80/TCP         2m21s
-nginx--nodeport      NodePort    10.102.253.38    <none>        80:30789/TCP   2m21s
-
-```
 ##
 
 Apply NodePort.yaml:
@@ -109,12 +104,7 @@ Apply ClusterIP.yaml:
 
 ![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/cluster.jpg?raw=true)
 
-##
+## 5
 
-kubectl apply -f cluster-ip.yaml -n k12
-job.batch/cluster-ip-curl-job created
-------------------------------------------
-kubectl apply -f node-port.yaml -n k12
-job.batch/nodeport-curl created
-
-```
+Prepare Cronjob.yaml:
+![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_12/img/cronjob.jpg?raw=true)
