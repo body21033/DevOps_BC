@@ -28,6 +28,7 @@ example: google.com );
  - After `built` our Dockerfile;
  - And `run` it;
  - Your `Docker-Container` will have an ETC-2 Public Address `+ :8080` (port);
+ - `sudo usermod -aG docker $USER`
    
 ## My results:
 
