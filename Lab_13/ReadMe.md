@@ -1,4 +1,4 @@
-# HomeTask_11 - K8s (3)
+# HomeTask_13 - K8s (Lab_3)
 
 ## Requirements:
 ### Task 1
