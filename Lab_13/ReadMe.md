@@ -134,9 +134,9 @@ kubectl apply -f staging-issuer.yaml
 ```
 Run letsencrypt-prod:
 ```
-kubectl apply -f production-issuer.yaml
+kubectl apply -f web-issuer.yaml
 ```
-Now you should uncomment everything in the [ingress.yaml](https://github.com/BohdanHavran/DevOps-Basecamp-HomeTask/blob/main/task13/ingress.yaml) file and run it again:
+Now you should uncomment everything in the [ingress.yaml](https://github.com/body21033/DevOps_BC/blob/b37275cf37b6f316e3da6474f6f132b44806bbe8/Lab_13/files/ingress.yaml) file and run it again:
 ```
 nano ingress.yaml
 ```
@@ -151,7 +151,7 @@ Check on the status of the issuer after you create it:
 ```
 kubectl describe issuer letsencrypt-staging
 ```
-![image](https://user-images.githubusercontent.com/7732624/217269070-8e596090-2d61-42f9-bb1c-688627221ff4.png)
+![image][15.7]
 
 Cert-manager will read annotations and create a certificate, which you can request and see:
 ```
@@ -250,3 +250,4 @@ Check our page:
 [20]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/20.jpg?raw=true
 [15.5]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.5.jpg?raw=true
 [15.6]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.6.jpg?raw=true
+[15.7]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.7.jpg?raw=true
