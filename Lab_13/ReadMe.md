@@ -172,29 +172,6 @@ kubectl apply -f ingress.yaml
 ```
 
 
-Get ingress-nginx:
-
-![image][12]
-
-##
-
-Check the Services:
-
-![image][13]
-
-## Task 3, 4
-
-Register free DNS-name:
-
-![image][15]
-
-##
-
-Run `web-issuer.yaml`
-
-![image][16]
-
-##
 
 Check the Clusterissuer
 
