@@ -16,8 +16,37 @@
 
 ### Task 1
 
+Create and configurate Vm:
 
+![image][1]
 
+##
+
+Докинем kubespray:
+
+![image][2]
+
+##
+
+Изменим данные в файле  inventory file:
+
+![image][3]
+
+##
+
+Применим переменные
+
+![image][4]
+
+##
+
+Мы перешли в kubespray:
+
+![image][5]
+
+##
+
+![6]
 
 ### Task 2
 1. Prepare private and public network
@@ -152,15 +181,23 @@ example: google.com );
 - [Docker's Networks][10]
 - [Docker's Build's][11]
 
-[1]: http://3.123.229.58:8080/
-[2]: https://docs.docker.com/engine/install/ubuntu/
-[3]: https://rtfm.co.ua/en/docker-configure-tzdata-and-timezone-during-build/
-[4]: https://www.youtube.com/watch?v=I18TNwZ2Nqg&t=771s&ab_channel=ADV-IT
-[5]: https://computingforgeeks.com/how-to-install-ifconfig-on-ubuntu-focal-fossa/
-[6]: https://docs.docker.com/engine/reference/commandline/network_create/
-[7]: https://hub.docker.com/r/nicolaka/netshoot
-[8]: https://www.youtube.com/watch?v=_uZQtRyF6Eg&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=1&t=7992s&ab_channel=BogdanStashchuk
-[9]: https://www.youtube.com/watch?v=VeiddqzBMls&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=2&ab_channel=RostislavO.
-[10]: https://www.youtube.com/watch?v=ctJnI43ermQ&list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt&index=3&ab_channel=RomNero
-[11]: https://youtu.be/wskg5903K8I?list=PLQOKmCTb4rU2FWKhUHPsRTHS6ZErBpXGt
-
+[1]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/1.jpg?raw=true
+[2]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/2.jpg?raw=true
+[3]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/3.jpg?raw=true
+[4]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/4.jpg?raw=true
+[5]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/5.jpg?raw=true
+[6]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/6.jpg?raw=true
+[7]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/7.jpg?raw=true
+[8]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/8.jpg?raw=true
+[9]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/9.jpg?raw=true
+[10]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/10.jpg?raw=true
+[11]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/11.jpg?raw=true
+[12]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/12.jpg?raw=true
+[13]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/13.jpg?raw=true
+[14]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/14.jpg?raw=true
+[15]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.jpg?raw=true
+[16]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/16.jpg?raw=true
+[17]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/17.jpg?raw=true
+[18]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/18.jpg?raw=true
+[19]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/19.jpg?raw=true
+[20]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/20.jpg?raw=true
