@@ -90,7 +90,7 @@ With this command, you will get a list of services:
 ```
 kubectl get svc --all-namespaces
 ```
-![image](https://user-images.githubusercontent.com/7732624/217273874-f3cb4021-9db1-497a-bf65-6670e20a65ee.png)
+![image][13]
 
 ### <a name="create-domain-name">Create domain name</a>
 You can use a free service to get a domain name https://dynv6.com/ (if you have your own domain name, you can use it)<br>
