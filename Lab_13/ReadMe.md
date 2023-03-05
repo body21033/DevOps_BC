@@ -118,7 +118,7 @@ With this command, you will get a list of ingress:
 ```
 kubectl get ingress
 ```
-![image](https://user-images.githubusercontent.com/7732624/217262886-b5e66089-34ab-4f66-9649-52c9a2536954.png)
+![image][15.6]
 
 ### <a name="certificate">Certificate</a>
 Installing cert-manager:
@@ -249,3 +249,4 @@ Check our page:
 [19]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/19.jpg?raw=true
 [20]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/20.jpg?raw=true
 [15.5]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.5.jpg?raw=true
+[15.6]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.6.jpg?raw=true
