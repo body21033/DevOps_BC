@@ -80,7 +80,7 @@ Apply `path_provisioner`:
 
 ![image][11]
 
-##
+## Task 2
 
 Get ingress-nginx:
 
@@ -92,7 +92,7 @@ Check the Services:
 
 ![image][13]
 
-##
+## Task 3, 4
 
 Register free DNS-name:
 
