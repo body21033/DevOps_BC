@@ -13,7 +13,7 @@
 - Service
 - Ingress (which will be connected to ClusterIssuer and use the letsencrypt certificate)
 
-## Link to our [`web-page`](https://chumachenko-b.dns.army/)
+## Link to our [`Web-page`](https://chumachenko-b.dns.army/)
 
 ### Task 1
 
