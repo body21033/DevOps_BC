@@ -22,49 +22,49 @@ Create and configurate Vm:
 
 ##
 
-Докинем kubespray:
+Run git clone kubespray:
 
 ![image][2]
 
 ##
 
-Изменим данные в файле  inventory file:
+Change some info in inventory file:
 
 ![image][3]
 
 ##
 
-Применим переменные
+Specify some variables:
 
 ![image][4]
 
 ##
 
-Мы перешли в kubespray:
+We are in kubespray:
 
 ![image][5]
 
 ##
 
-Запуск Ansible:
+Run an Ansible:
 
 ![image][6]
 
 ##
 
-Используя ключ мы зашли на Node:
+Using key - we are in our Node:
 
 ![image][7]
 
 ##
 
-Создаём папку:
+Create a directory:
 
 ![image][8]
 
 ##
 
-Переглянемо Nodes:
+Check a Nodes:
 
 ![image][9]
 
@@ -118,7 +118,7 @@ Check our services:
 
 ##
 
-Не забудьте включити підтримку `http` and `https` protocols:
+Don't forget to enable support flags `http` and `https` protocols:
 
 ![image][19]
 
