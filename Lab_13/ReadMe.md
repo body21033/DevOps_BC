@@ -173,9 +173,6 @@ kubectl apply -f ingress.yaml
 
 
 
-##
-
-
 Don't forget to enable support flags `http` and `https` protocols:
 
 ![image][19]
