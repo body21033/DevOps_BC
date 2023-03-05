@@ -22,7 +22,7 @@ Create and configurate Vm:
 
 ##
 
-Run git clone kubespray:
+Run git clone `kubespray`:
 
 ![image][2]
 
@@ -40,31 +40,31 @@ Specify some variables:
 
 ##
 
-We are in kubespray:
+We are in `kubespray`:
 
 ![image][5]
 
 ##
 
-Run an Ansible:
+Run an `Ansible`:
 
 ![image][6]
 
 ##
 
-Using key - we are in our Node:
+Using key - we are in our `Node`:
 
 ![image][7]
 
 ##
 
-Create a directory:
+Create a `directory`:
 
 ![image][8]
 
 ##
 
-Check a Nodes:
+Check a `Nodes`:
 
 ![image][9]
 
@@ -110,7 +110,7 @@ kubectl get pods
 <b>Note</b>
 - Before using the following commands, you should change the data in the file to your own
 
-With this command you will run ingress.yaml file:
+With this command you will run `ingress.yaml` file:
 ```
 kubectl apply -f ingress.yaml
 ```
@@ -128,11 +128,11 @@ kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/
 <b>Note</b>
 - Before using the following commands, you should change the data in the files to your own
 
-Run letsencrypt-staging:
+Run `letsencrypt-staging`:
 ```
 kubectl apply -f staging-issuer.yaml
 ```
-Run letsencrypt-prod:
+Run `letsencrypt-prod`:
 ```
 kubectl apply -f web-issuer.yaml
 ```
@@ -147,13 +147,13 @@ vim ingress.yaml
 ```
 kubectl apply -f ingress.yaml
 ```
-Check on the status of the issuer after you create it:
+Check on the status of the `issuer` after you create it:
 ```
 kubectl describe issuer letsencrypt-staging
 ```
 ![image][15.7]
 
-Cert-manager will read annotations and create a certificate, which you can request and see:
+Cert-manager will read annotations and create a `certificate`, which you can request and see:
 ```
 kubectl get certificate
 ```
