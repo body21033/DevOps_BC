@@ -185,9 +185,9 @@ Check our page:
 
 
 ## Useful links for Tasks:
-- [Install Docker Engine][2]
-- [Configuration the timezone during build][3]
-- [Useful Youtube Channel][4]
+- [Install Docker Engine][20]
+- [Dynv6.com][21]
+- [Useful Youtube Channel][22]
 
 
 
@@ -217,4 +217,6 @@ Check our page:
 [17]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/17.jpg?raw=true
 [18]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/18.jpg?raw=true
 [19]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/19.jpg?raw=true
-
+[20]: https://docs.docker.com/engine/install/ubuntu/
+[21]: https://dynv6.com/
+[22]: https://www.youtube.com/watch?v=I18TNwZ2Nqg&t=771s&ab_channel=ADV-IT
