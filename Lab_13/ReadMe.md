@@ -96,7 +96,7 @@ kubectl get svc --all-namespaces
 You can use a free service to get a domain name https://dynv6.com/ (if you have your own domain name, you can use it)<br>
 ![image][15]
 
-### <a name="deployment-and-service">Deployment and Ingress</a>
+### <a name="deployment-and-ingress">Deployment and Ingress</a>
 With this command you will run deployment-service.yaml file:
 ```
 kubectl apply -f deployment-service.yaml
@@ -105,7 +105,7 @@ With this command, you will get a list of pods:
 ```
 kubectl get pods
 ```
-![image](https://user-images.githubusercontent.com/7732624/217263171-7770b83e-e2e7-42d4-ac49-5e7a95b9bc5c.png)
+![image][15.5]
 
 <b>Note</b>
 - Before using the following commands, you should change the data in the file to your own
