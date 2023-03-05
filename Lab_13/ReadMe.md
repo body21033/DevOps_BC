@@ -46,73 +46,90 @@ Create and configurate Vm:
 
 ##
 
-![6]
+Запуск Ansible:
 
-### Task 2
-1. Prepare private and public network
-2. Prepare one dockerfile based on ubuntu with the ping command
-3. One container must have access to the private and public networks the second container
-must be in the private network
-4. - A) Run a container that has access to the public network and ping some resources (
-example: google.com ); 
-   - B) The second container ping the first container via a private network;
-
-5. Report save in GitHub repository
-
-## Preparation:
- - First you need to create an `ETC-2 on AWS`;
- - Next, you need to install `Docker Engine` (In my case, I wrote a handy bash script);
- - Then make a `Dockerfile`;
- - After `built` our Dockerfile;
- - And `run` it;
- - Your `Docker-Container` will have an ETC-2 Public Address `+ :8080` (port);
- - `sudo usermod -aG docker $USER`
-   
-## My results:
-
-- If you want to check my first-server, follow next link:
-  - [Docker-server-1](http://3.123.229.58:8080/)
-  
-# Execution 1:
-  
-* Checking the status of the `Docker service`:  
-  
-  
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/1.jpg?raw=true)
+![image][6]
 
 ##
 
-* Building and Viewing `Dockerfile`:
+Используя ключ мы зашли на Node:
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/2.jpg?raw=true)
-
-##
-
-* Build our `Dockerfile`: 
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/3.jpg?raw=true)
+![image][7]
 
 ##
 
-* Browsing our `Images`:
+Создаём папку:
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/4.jpg?raw=true)
-
-##
-
-* Run our `Image`:
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/5.jpg?raw=true)
+![image][8]
 
 ##
 
-* Go to web page ([`Public-IP +:8080 port`][1]);
+Переглянемо Nodes:
 
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/6.jpg?raw=true)
+![image][9]
+
+##
+
+Apply `nginx-ctl.yaml`:
+
+![image][10]
+
+##
+
+Apply `path_provisioner`:
+
+![image][11]
+
+##
+
+Get ingress-nginx:
+
+![image][12]
+
+##
+
+Check the Services:
+
+![image][13]
+
+##
+
+Register free DNS-name:
+
+![image][15]
+
+##
+
+Run `web-issuer.yaml`
+
+![image][16]
+
+##
+
+Check the Clusterissuer
+
+![image][17]
+
+##
+
+Check our services:
+
+![image][18]
+
+##
+
+Не забудьте включити підтримку `http` and `https` protocols:
+
+![image][19]
+
+##
+
+Check our page:
+
+![image][20]
 
 
-
-## Useful links for Task 1:
+## Useful links for Tasks:
 - [Install Docker Engine][2]
 - [Configuration the timezone during build][3]
 - [Useful Youtube Channel][4]
@@ -120,66 +137,6 @@ example: google.com );
 
 
 
-
-# Execution 2 
-
-* Let's review the contents of the `Dockerfile` and the built `Image`: 
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/78.jpg?raw=true)
-
-##
-
-* Let's review our running containers: 
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/77.jpg?raw=true)
-
-##
- 
-  * Let's create a `Public-network` and a `Private-network`:  
-  
-  
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/71.jpg?raw=true)
-
-##
-
-* Let's start the `Public-container` and review its network configurations:
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/72.jpg?raw=true)
-
-##
-
-* Let's add a `Private-network` to the previous `Public-container` (through the second console): 
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/73.jpg?raw=true)
-
-##
-
-* Let's launch a `Private-container` and a `Private-network` to it:
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/74.jpg?raw=true)
-
-##
-
-* Ping from `Private-container` ->> `Public-container` and `Google.com` :
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/75.jpg?raw=true)
-
-##
-
-* Ping from `Public-container` ->> `Private-container` and `Google.com` :
-
-![image](https://github.com/body21033/DevOps_BC/blob/main/Lab_10/img/76.jpg?raw=true)
-
-##
-
-## Useful links for Task 2:
-- [How to add comands to Dockerfile (RUN)][5]
-- [Docker Network Create][6]
-- [nicolaka/netshoot][7]
-- [Docker #1][8]
-- [What is a Docker][9]
-- [Docker's Networks][10]
-- [Docker's Build's][11]
 
 [1]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/1.jpg?raw=true
 [2]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/2.jpg?raw=true
