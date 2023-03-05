@@ -173,10 +173,6 @@ kubectl apply -f ingress.yaml
 
 
 
-Check the Clusterissuer
-
-![image][17]
-
 ##
 
 
