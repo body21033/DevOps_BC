@@ -157,9 +157,9 @@ Cert-manager will read annotations and create a certificate, which you can reque
 ```
 kubectl get certificate
 ```
-![image](https://user-images.githubusercontent.com/7732624/217268081-f0cae2d3-e623-4f81-8dab-fd5063c36bd4.png)
+![image][15.8]
 
-Now you should replace "letsencrypt-staging" with "letsencrypt-prod" in the [ingress.yaml](https://github.com/BohdanHavran/DevOps-Basecamp-HomeTask/blob/main/task13/ingress.yaml) file and run it again:
+Now you should replace "letsencrypt-staging" with "letsencrypt-prod" in the [ingress.yaml](https://github.com/body21033/DevOps_BC/blob/b37275cf37b6f316e3da6474f6f132b44806bbe8/Lab_13/files/ingress.yaml) file and run it again:
 ```
 nano ingress.yaml
 ```
@@ -251,3 +251,4 @@ Check our page:
 [15.5]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.5.jpg?raw=true
 [15.6]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.6.jpg?raw=true
 [15.7]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.7.jpg?raw=true
+[15.8]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.8.jpg?raw=true
