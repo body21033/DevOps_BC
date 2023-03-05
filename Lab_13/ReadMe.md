@@ -28,7 +28,7 @@ Run git clone kubespray:
 
 ##
 
-Change some info in inventory file:
+Change some info in `inventory file`:
 
 ![image][3]
 
