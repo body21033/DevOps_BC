@@ -3,12 +3,12 @@
 
 ## Requirements:
 ### Task 1
-1. Create VM
-2. Configure VM
-3. Add your SSH public key
-4. Install Ingress-controller
-5. Prepare domain name (free resource https://dynv6.com/ )
-6. Configure cert-manager (https://cert-manager.io/) with Letsencrypt
+1. Create VM;
+2. Configure VM;
+3. Add your SSH public key;
+4. Install Ingress-controller;
+5. Prepare domain name (free resource https://dynv6.com/ );
+6. Configure cert-manager (https://cert-manager.io/) with Letsencrypt;
 7. Prepare Nginx deployment:
 - Deployment
 - Service
