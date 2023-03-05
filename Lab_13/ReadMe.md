@@ -189,7 +189,7 @@ Check our page:
 - [Dynv6.com][21]
 - [Cert-manager][23]
 - [Useful Youtube Channel][22]
-- [ssh-keygen] [24]
+- [ssh-keygen][24]
 
 
 
