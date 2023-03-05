@@ -179,11 +179,6 @@ Check the Clusterissuer
 
 ##
 
-Check our services:
-
-![image][18]
-
-##
 
 Don't forget to enable support flags `http` and `https` protocols:
 
