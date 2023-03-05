@@ -84,7 +84,7 @@ Apply `path_provisioner`:
 ```
 kubectl get pods -n ingress-nginx -w
 ```
-![image](https://user-images.githubusercontent.com/7732624/217257802-269abf4a-f5d8-4245-b2a3-049924fe32fe.png)
+![image][12]
 
 With this command, you will get a list of services:
 ```
