@@ -81,6 +81,96 @@ Apply `path_provisioner`:
 ![image][11]
 
 ## Task 2
+```
+kubectl get pods -n ingress-nginx -w
+```
+![image](https://user-images.githubusercontent.com/7732624/217257802-269abf4a-f5d8-4245-b2a3-049924fe32fe.png)
+
+With this command, you will get a list of services:
+```
+kubectl get svc --all-namespaces
+```
+![image](https://user-images.githubusercontent.com/7732624/217273874-f3cb4021-9db1-497a-bf65-6670e20a65ee.png)
+
+### <a name="create-domain-name">Create domain name</a>
+You can use a free service to get a domain name https://dynv6.com/ (if you have your own domain name, you can use it)<br>
+![image](https://user-images.githubusercontent.com/7732624/217261942-1b2a6821-9f37-47b0-9b23-78a5636eebb6.png)
+
+### <a name="deployment-and-ingress">Deployment and Ingress</a>
+With this command you will run deployment.yaml file:
+```
+kubectl apply -f deployment.yaml
+```
+With this command, you will get a list of pods:
+```
+kubectl get pods
+```
+![image](https://user-images.githubusercontent.com/7732624/217263171-7770b83e-e2e7-42d4-ac49-5e7a95b9bc5c.png)
+
+<b>Note</b>
+- Before using the following commands, you should change the data in the file to your own
+
+With this command you will run ingress.yaml file:
+```
+kubectl apply -f ingress.yaml
+```
+With this command, you will get a list of ingress:
+```
+kubectl get ingress
+```
+![image](https://user-images.githubusercontent.com/7732624/217262886-b5e66089-34ab-4f66-9649-52c9a2536954.png)
+
+### <a name="certificate">Certificate</a>
+Installing cert-manager:
+```
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.11.0/cert-manager.yaml
+```
+<b>Note</b>
+- Before using the following commands, you should change the data in the files to your own
+
+Run letsencrypt-staging:
+```
+kubectl apply -f staging-issuer.yaml
+```
+Run letsencrypt-prod:
+```
+kubectl apply -f production-issuer.yaml
+```
+Now you should uncomment everything in the [ingress.yaml](https://github.com/BohdanHavran/DevOps-Basecamp-HomeTask/blob/main/task13/ingress.yaml) file and run it again:
+```
+nano ingress.yaml
+```
+OR
+```
+vim ingress.yaml
+```
+```
+kubectl apply -f ingress.yaml
+```
+Check on the status of the issuer after you create it:
+```
+kubectl describe issuer letsencrypt-staging
+```
+![image](https://user-images.githubusercontent.com/7732624/217269070-8e596090-2d61-42f9-bb1c-688627221ff4.png)
+
+Cert-manager will read annotations and create a certificate, which you can request and see:
+```
+kubectl get certificate
+```
+![image](https://user-images.githubusercontent.com/7732624/217268081-f0cae2d3-e623-4f81-8dab-fd5063c36bd4.png)
+
+Now you should replace "letsencrypt-staging" with "letsencrypt-prod" in the [ingress.yaml](https://github.com/BohdanHavran/DevOps-Basecamp-HomeTask/blob/main/task13/ingress.yaml) file and run it again:
+```
+nano ingress.yaml
+```
+OR
+```
+vim ingress.yaml
+```
+```
+kubectl apply -f ingress.yaml
+```
+
 
 Get ingress-nginx:
 
