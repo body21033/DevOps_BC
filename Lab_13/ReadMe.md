@@ -179,7 +179,7 @@ Don't forget to enable support flags `http` and `https` protocols:
 
 ##
 
-Check our page:
+Check our [page](https://chumachenko-b.dns.army/):
 
 ![image][15.9]
 
