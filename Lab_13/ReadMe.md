@@ -212,7 +212,7 @@ Check our page:
 [15.6]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.6.jpg?raw=true
 [15.7]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.7.jpg?raw=true
 [15.8]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.8.jpg?raw=true
-[15.9]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/20.jpg?raw=true
+[15.9]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/15.9.jpg?raw=true
 [16]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/16.jpg?raw=true
 [17]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/17.jpg?raw=true
 [18]: https://github.com/body21033/DevOps_BC/blob/main/Lab_13/img/18.jpg?raw=true
