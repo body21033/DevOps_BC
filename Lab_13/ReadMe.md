@@ -1,14 +1,23 @@
-# HomeTask_10 - Docker
+# HomeTask_11 - K8s (3)
 
 
 ## Requirements:
 ### Task 1
-1. Install docker
-2. Prepare a dockerfile based on Apache or Nginx image
-3. Added your own index.html page with your name and surname to the docker image
-4. Run the docker container at port 8080
-5. Open page in Web Browser
-6. Report save in GitHub repository
+1. Create VM
+2. Configure VM
+3. Add your SSH public key
+4. Install Ingress-controller
+5. Prepare domain name (free resource https://dynv6.com/ )
+6. Configure cert-manager (https://cert-manager.io/) with Letsencrypt
+7. Prepare Nginx deployment:
+- Deployment
+- Service
+- Ingress (which will be connected to ClusterIssuer and use the letsencrypt certificate)
+
+### Task 1
+
+
+
 
 ### Task 2
 1. Prepare private and public network
