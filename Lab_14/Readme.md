@@ -17,11 +17,22 @@ Extra Task 3 (not mandatory)
 
 3. Deploy MERN stack (MongoDB, Express.js, React.js, Node.js) via helm.
 
+### My [`Web-page`][9]
+
 ### Task 1
 
 Create and configurate Vm:
 
 ![image][01]
+
+Add some command for flex-use our `helm`:
+
+ ```
+ sudo chown -R $USER /home/body21033/.kube/config
+ 
+ sudo chmod 700 /home/body21033/.kube/config
+ 
+ ```
 
 2. Install Helm
 
@@ -100,6 +111,7 @@ Check `pacman-page`:
 [6]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/6.jpg?raw=true
 [7]: https://github.com/body21033/DevOps_BC/raw/main/Lab_13/img/19.jpg?raw=true
 [8]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/8.jpg?raw=true
+[9]: https://chumachenko-b.dns.army/
 [10]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/10.jpg?raw=true
 [20]: https://docs.docker.com/engine/install/ubuntu/
 [21]: https://dynv6.com/
