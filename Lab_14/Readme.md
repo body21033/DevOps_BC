@@ -31,10 +31,10 @@ Create and configurate Vm:
 
 ![image][5]
 
-![image][6]
-
-
 ![image][8]
+
+
+![image][6]
 
 
 ![image][10]
