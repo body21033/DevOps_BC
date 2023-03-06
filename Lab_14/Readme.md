@@ -17,9 +17,9 @@ Extra Task 3 (not mandatory)
 
 3. Deploy MERN stack (MongoDB, Express.js, React.js, Node.js) via helm.
 
-### Link to my [`Web-page`][9]
+## Link to my [`Web-page`][9]
 
-### Task 1
+## Task 1
 
 Create and configurate Vm:
 
@@ -74,6 +74,8 @@ See our `nginx` at the web-page:
 
 
 ![image][5]
+
+## Task 2
 
 Change some properties with using `helm --set`:
 
