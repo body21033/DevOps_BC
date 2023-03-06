@@ -55,6 +55,10 @@ Run helm install for `nginx`:
 
 ![image][2]
 
+Make sure your ports `http` and `https` are enabled!
+
+![image][7]
+
 See our `nginx` at the web-page:
 
 
@@ -86,5 +90,6 @@ Check `pacman-page`:
 [4]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/4.jpg?raw=true
 [5]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/5.jpg?raw=true
 [6]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/6.jpg?raw=true
+[7]: https://github.com/body21033/DevOps_BC/raw/main/Lab_13/img/19.jpg?raw=true
 [8]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/8.jpg?raw=true
 [10]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/10.jpg?raw=true
