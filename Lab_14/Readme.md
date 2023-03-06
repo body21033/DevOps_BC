@@ -65,7 +65,7 @@ Change some properties with using `helm --set`:
 
 ![image][8]
 
-
+And install app with `helm + path/pacman/`:
 
 
 ![image][6]
