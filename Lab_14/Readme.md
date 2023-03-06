@@ -60,7 +60,7 @@ See our `nginx` at the web-page:
 
 ![image][5]
 
-
+Change some properties with using `helm --set`:
 
 
 ![image][8]
