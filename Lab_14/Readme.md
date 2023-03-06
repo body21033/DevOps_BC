@@ -55,7 +55,7 @@ Run helm install for `nginx`:
 
 ![image][2]
 
-See our `nginx` at the web-page
+See our `nginx` at the web-page:
 
 
 ![image][5]
