@@ -17,7 +17,7 @@ Extra Task 3 (not mandatory)
 
 3. Deploy MERN stack (MongoDB, Express.js, React.js, Node.js) via helm.
 
-### My [`Web-page`][9]
+### Link to my [`Web-page`][9]
 
 ### Task 1
 
