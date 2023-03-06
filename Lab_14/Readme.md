@@ -23,12 +23,32 @@ Create and configurate Vm:
 
 ![image][1]
 
+![image][2]
+
+![image][3]
+
+![image][4]
+
+![image][5]
+
+![image][6]
+
+
+![image][8]
+
+
+![image][10]
 
 
 
 
 
 
-
-[1]:
-[2]:
+[1]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/1.png?raw=true
+[2]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/2.jpg?raw=true
+[3]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/3.jpg?raw=true
+[4]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/4.jpg?raw=true
+[5]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/5.jpg?raw=true
+[6]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/6.jpg?raw=true
+[8]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/8.jpg?raw=true
+[10]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/10.jpg?raw=true
