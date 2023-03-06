@@ -79,7 +79,15 @@ Check `pacman-page`:
 
 ![image][10]
 
+## Useful links for Tasks:
+- [Install Docker Engine][20]
+- [Dynv6.com][21]
+- [Cert-manager][23]
+- [Useful Youtube Channel][22]
 
+## Task 3
+
+### In progress.... will be created after final-task );
 
 
 
@@ -93,3 +101,8 @@ Check `pacman-page`:
 [7]: https://github.com/body21033/DevOps_BC/raw/main/Lab_13/img/19.jpg?raw=true
 [8]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/8.jpg?raw=true
 [10]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/10.jpg?raw=true
+[20]: https://docs.docker.com/engine/install/ubuntu/
+[21]: https://dynv6.com/
+[22]: https://www.youtube.com/watch?v=-lLT0vlaBpk&list=PLg5SS_4L6LYvN1RqaVesof8KAf-02fJSi&index=12&ab_channel=ADV-IT
+[23]: https://cert-manager.io/
+
