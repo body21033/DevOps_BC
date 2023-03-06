@@ -21,6 +21,10 @@ Extra Task 3 (not mandatory)
 
 Create and configurate Vm:
 
+![image][01]
+
+
+
 ![image][1]
 
 
@@ -62,7 +66,7 @@ Create and configurate Vm:
 
 
 
-
+[01]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/01.jpg?raw=true
 [1]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/1.png?raw=true
 [2]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/2.jpg?raw=true
 [3]: https://github.com/body21033/DevOps_BC/blob/main/Lab_14/img/3.jpg?raw=true
