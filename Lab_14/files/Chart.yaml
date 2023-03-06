@@ -1,0 +1,15 @@
+apiVersion: v2
+name       : NGinX-HelmChart
+description: My Helm chart for Kubernetes
+type       : application
+version    : 0.1.0   # This is the Helm Chart version
+appVersion : "1.1.3" # This is the version of the application being deployed
+
+keywords:
+  - nginx
+  - http
+  - https
+  - chumachenko-b
+
+maintainers:
+  - name : Bohdan Chumachenko

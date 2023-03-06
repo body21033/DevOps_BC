@@ -1,0 +1,8 @@
+# Default Values for my Helm Chart
+
+container:
+  image: nginx:latest
+
+replicaCount: 3
+
+dnsName: chumachenko-b.dns.army
