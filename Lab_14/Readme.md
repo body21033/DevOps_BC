@@ -71,7 +71,7 @@ And install app with `helm + path/pacman/`:
 ![image][6]
 
 
-
+Check `pacman-page`:
 
 ![image][10]
 
