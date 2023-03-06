@@ -23,26 +23,39 @@ Create and configurate Vm:
 
 ![image][01]
 
+2. Install Helm
 
+        curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+        chmod 700 get_helm.sh
+        ./get_helm.sh
+    
+3. Install NGINX Ingress Controller using Helm
+
+        helm repo add nginx-stable https://helm.nginx.com/stable
+        helm repo update
+    
+4. Check our helm version:
+
+       
 
 ![image][1]
 
-
+Check `nginx-tree`:
 
 
 ![image][3]
 
-
+And `pacman tree`:
 
 
 ![image][4]
 
-
+Run helm install for `nginx`:
 
 
 ![image][2]
 
-
+See our `nginx` at the web-page
 
 
 ![image][5]
