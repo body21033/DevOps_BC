@@ -29,7 +29,6 @@ Add some command for flex-use our `helm`:
 
  ```
  sudo chown -R $USER /home/body21033/.kube/config
- 
  sudo chmod 700 /home/body21033/.kube/config
  
  ```
