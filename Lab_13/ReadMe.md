@@ -17,20 +17,20 @@
 
 ### Task 1
 
-Create and configurate Vm:
+1. Create and configurate Vm:
 
 ![image][1]
 
 ##
 
-3. I test SSH connection from local machine:
+2. I test SSH connection from local machine:
 ```
 ssh -i k8s body21033@xx.xx.xx.xx
 ``` 
 
 ##
 
-4. I clone Kubespray release repository:
+3. I clone Kubespray release repository:
 ```bash
 git clone https://github.com/kubernetes-sigs/kubespray.git
 cd kubespray
@@ -41,8 +41,26 @@ git checkout release-2.20
 
 ##
 
-Change some info in `inventory file`:
-
+4. I copy and edit inventory file:
+```
+cp -rfp inventory/sample inventory/mycluster
+nano inventory/mycluster/inventory.ini
+```
+```ini
+[all]
+node1 ansible_host=34.79.182.243
+[kube_control_plane]
+node1
+[etcd]
+node1
+[kube_node]
+node1
+[calico_rr]
+[k8s_cluster:children]
+kube_control_plane
+kube_node
+calico_rr
+```
 ![image][3]
 
 ##
