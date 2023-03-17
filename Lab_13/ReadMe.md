@@ -88,7 +88,10 @@ docker run --rm -it -v /home/bc/Desktop/Lab_13/:/mnt -v /home/bc/.ssh/:/pem quay
 ##
 
 7. We are in `kubespray`:
-
+8. 
+```
+ cd /mnt/kubespray
+ ```
 ![image][5]
 
 ##
