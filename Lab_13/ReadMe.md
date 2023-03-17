@@ -30,7 +30,12 @@ ssh -i k8s body21033@xx.xx.xx.xx
 
 ##
 
-Run git clone `kubespray`:
+4. I clone Kubespray release repository:
+```bash
+git clone https://github.com/kubernetes-sigs/kubespray.git
+cd kubespray
+git checkout release-2.20
+```
 
 ![image][2]
 
