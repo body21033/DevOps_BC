@@ -23,6 +23,13 @@ Create and configurate Vm:
 
 ##
 
+3. I test SSH connection from local machine:
+```
+ssh -i k8s body21033@xx.xx.xx.xx
+``` 
+
+##
+
 Run git clone `kubespray`:
 
 ![image][2]
