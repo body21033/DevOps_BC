@@ -48,7 +48,7 @@ nano inventory/mycluster/inventory.ini
 ```
 ```ini
 [all]
-node1 ansible_host=34.79.182.243
+node1 ansible_host=34.79.144.210
 [kube_control_plane]
 node1
 [etcd]
