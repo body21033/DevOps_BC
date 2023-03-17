@@ -114,6 +114,13 @@ Using key - we are in our `Node`:
 
 Create a `directory`:
 
+```
+mkdir ~/.kube
+sudo cp /etc/kubernetes/admin.conf ~/.kube/config
+sudo chmod 777 ~/.kube/config
+kubectl get nodes
+kubectl get ns
+```
 ![image][8]
 
 ##
