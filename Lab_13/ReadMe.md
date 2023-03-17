@@ -65,19 +65,40 @@ calico_rr
 
 ##
 
-Specify some variables:
+4. I turn on MetalLB
+```
+nano inventory\mycluster\group_vars\k8s_cluster\addons.yml
+```
+![image](https://user-images.githubusercontent.com/104198926/217781432-5e7943fb-3998-46f9-99d5-81bbeb0a3df9.png)
+```
+nano inventory\mycluster\group_vars\k8s_cluster\k8s-cluster.yml
+```
+`kube_proxy_strict_arp: true` 
+
+##
+
+5. Specify some variables:
+
+```
+docker run --rm -it -v /mnt/c/Users/Asus/Desktop/DevOps/k8s/kubespray:/mnt/kubespray -v /home/Asus/.ssh/keys/:/pem quay.io/kubespray/kubespray:v2.20.0 bash
+```
 
 ![image][4]
 
 ##
 
-We are in `kubespray`:
+6. We are in `kubespray`:
 
 ![image][5]
 
 ##
+7. Run an `Ansible`: (`ansible-playbook`)
+```
+cd /mnt/kubespray
+ansible-playbook -i inventory/mycluster/inventory.ini --private-key /pem/id_rsa -e ansible_user=body21033 -b  cluster.yml
+```
 
-Run an `Ansible`:
+
 
 ![image][6]
 
