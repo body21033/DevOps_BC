@@ -95,7 +95,7 @@ docker run --rm -it -v /home/bc/Desktop/Lab_13/:/mnt -v /home/bc/.ssh/:/pem quay
 8. Run an `Ansible`: (`ansible-playbook`)
 ```
 cd /mnt/kubespray
-ansible-playbook -i inventory/mycluster/inventory.ini --private-key /pem/id_rsa -e ansible_user=body21033 -b  cluster.yml
+ansible-playbook -i inventory/mycluster/inventory.ini --private-key /pem/finaly.key -e ansible_user=body21033 -b  cluster.yml
 ```
 
 
@@ -105,6 +105,8 @@ ansible-playbook -i inventory/mycluster/inventory.ini --private-key /pem/id_rsa 
 ##
 
 Using key - we are in our `Node`:
+
+`ssh -i /pem/finaly.key body21033@xx.xx.xx.xx`
 
 ![image][7]
 
