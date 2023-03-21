@@ -29,8 +29,10 @@ example: google.com );
  - And `run` it;
  - Your `Docker-Container` will have an ETC-2 Public Address `+ :8080` (port);
  - `sudo usermod -aG docker $USER`
- - `usermod -aG sudo sammy` - add permissions for user-sammy
- - sudo useradd -m `new-user` - add new user with home-dir
+ - `sudo usermod -aG sudo sammy` -- add permissions for user-sammy
+ - sudo useradd -m `new-user` -- add new user with home-dir
+ - sudo pgrep -u old-user -- stop all procceses from old-user
+ - sudo userdel -f old-user -- remove user
    
 ## My results:
 
